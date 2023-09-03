@@ -1,12 +1,17 @@
-import Navbar from "./components/Navbar";
+import { Navbar } from "./components";
+import { Hero } from "./sections";
 
 const App = () => {
   return (
     <main className="relative">
       {/* navbar */}
       <Navbar />
+
       {/* hero */}
-      <section className="xl:padding-l wide:padding-r padding-b">Hero</section>
+      <section className="xl:padding-l wide:padding-r padding-b">
+        <Hero />
+      </section>
+
       {/* popular products */}
       <section className="padding">popular</section>
       {/* super quality products */}
