@@ -1,5 +1,6 @@
-import { Navbar } from "./components";
+import Navbar from "./components/Navbar";
 import {
+  CustomerReviews,
   Hero,
   PopularProducts,
   Services,
@@ -38,8 +39,11 @@ const App = () => {
         <SpecialOffer />
       </section>
 
-      {/* reviews */}
-      <section className="padding bg-pale-blue">reviews</section>
+      {/* customer reviews */}
+      <section className="padding bg-pale-blue">
+        <CustomerReviews />
+      </section>
+
       {/* subscribe */}
       <section className="padding-x sm:py-32 py-16 w-full">subscribe</section>
       {/* footer */}
