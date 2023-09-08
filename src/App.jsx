@@ -1,5 +1,5 @@
 import { Navbar } from "./components";
-import { Hero, PopularProducts } from "./sections";
+import { Hero, PopularProducts, SuperQuality } from "./sections";
 
 const App = () => {
   return (
@@ -18,7 +18,9 @@ const App = () => {
       </section>
 
       {/* super quality products */}
-      <section className="padding">super quality</section>
+      <section className="padding">
+        <SuperQuality />
+      </section>
       {/* Services */}
       <section className="padding-x py-10">Services</section>
       {/* offer */}

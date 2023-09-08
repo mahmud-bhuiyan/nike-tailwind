@@ -1,5 +1,6 @@
 import { star } from "../assets/icons";
-function PopularProductsCard({ product }) {
+
+const PopularProductsCard = ({ product }) => {
   const { name, imgURL, price } = product;
   return (
     <div className="flex flex-1 flex-col w-full max-sm:w-full">
@@ -13,11 +14,11 @@ function PopularProductsCard({ product }) {
       <h3 className="text-2xl font-semibold font-palanquin leading-normal mt-2">
         {name}
       </h3>
-      <p className="text-xl font-semibold font-montserrat text-coral-red leading-normal mt-2">
+      <p className="text-lg font-semibold font-montserrat text-coral-red leading-normal mt-2">
         {price}
       </p>
     </div>
   );
-}
+};
 
 export default PopularProductsCard;
