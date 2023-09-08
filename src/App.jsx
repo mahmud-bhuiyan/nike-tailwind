@@ -1,6 +1,7 @@
 import Navbar from "./components/Navbar";
 import {
   CustomerReviews,
+  Footer,
   Hero,
   PopularProducts,
   Services,
@@ -49,9 +50,12 @@ const App = () => {
       <section className="padding-x sm:py-32 py-16 w-full">
         <Subscribe />
       </section>
+
       {/* footer */}
       <section className="padding-x padding-t pb-8 bg-black text-white">
-        <h3>Footer</h3>
+        <h3>
+          <Footer />
+        </h3>
       </section>
     </main>
   );
