@@ -16,7 +16,6 @@ const Subscribe = () => {
           <Button label={"Sign Up"} style={"!w-full"} />
         </div>
       </div>
-      ;
     </section>
   );
 };

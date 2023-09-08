@@ -10,12 +10,14 @@ import shieldTick from "./shield-tick.svg";
 import star from "./star.svg";
 import truckFast from "./truck-fast.svg";
 import twitter from "./twitter.svg";
+import crossIcon from "./cross-icon.jpg";
 
 export {
   arrowRight,
   chevronRight,
   chevronLeft,
   copyrightSign,
+  crossIcon,
   facebook,
   hamburger,
   instagram,

@@ -1,8 +1,8 @@
-import Navbar from "./components/Navbar";
 import {
   CustomerReviews,
   Footer,
   Hero,
+  Navbar,
   PopularProducts,
   Services,
   SpecialOffer,
